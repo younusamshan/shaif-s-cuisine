@@ -1,0 +1,521 @@
+/* only home style*/
+.fast--section {
+    display: flex;
+    flex-direction:  column-reverse;
+    margin-top: 2.9rem;
+}
+.fast--section-left {
+     padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2.9rem;
+}
+.lift-heading {
+    font-size: 1rem;
+    color: black;
+    text-align: center;
+    margin-top: 0.9rem;
+}
+.lift-paragrap {
+    font-size: 0.6rem;
+    text-align: center;
+    color: rgb(92, 82, 82);
+}
+.btn-green {
+    border: none;
+    border-radius: 15px;
+    padding: 0.1rem 0.5rem 0.1rem 0.5rem;
+    font-size: 0.9rem;
+    background-color: rgb(44, 146, 49);
+}
+.right-section {
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+.right-img  {
+    display: flex;
+    align-items: center;
+    justify-content:center;
+     width: 70%;
+    align-items: center;
+
+}
+.right-img img {
+    width: 100%;
+
+}
+/* Box section*/
+.boxses {
+    margin-top: 2.9rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.box {
+    border-radius: 20px;
+    margin: 0.6rem;
+    display: flex;
+    flex-direction: column;
+     padding: 1rem;
+    align-items:center;
+    justify-content: center;
+    width: 30%;
+    height: 180px;
+    background-color: rgb(198, 218, 235);
+}
+.box h3 {
+    margin-top: 0.9rem;
+    font-size: 0.9rem;
+}
+.box p {
+    font-size: 0.6rem;
+}
+.next--section-one {
+    display: flex;
+    padding: 20%;
+
+}
+.card-img-top {
+    width: 20%;
+    height: 30%;
+}
+.card {
+    margin: 10px;
+}
+.bg {
+    background-color: aliceblue;
+}
+.without-img {
+    border: none !important;
+    margin-left: 5% !important;
+}
+.top-section {
+    display: flex;
+    flex-direction: column !important;
+    align-items: center;
+    
+}
+.card-img-top {
+    width: 50% !important;
+    height: 50% !important;
+}
+.top-card {
+    border: none !important;
+    box-shadow: 9px 9px 10px gainsboro;
+}
+
+.media-section-one {
+    width: 90%;
+    height: auto;
+    padding-top: 20px;
+    margin: 50px auto;
+    box-shadow: 10px 10px 10px gainsboro;    
+}
+.media--main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+      gap: 10px;    
+}
+.media-one {
+    width: 40%;
+    height: 200px;
+    margin: auto;
+}
+.media-one img {
+    border-radius: 20px;
+    width: 100%;
+    height: 100%;
+}
+.media--contant {
+    display: flex;
+    padding-left: 10px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.media--btn {
+    background-color: green;
+    color: white;
+    padding: 2px;
+    border-radius: 14px;
+}
+.media--contant h3 {
+    font-size: 0.8rem;
+    color: green;
+    font-weight: bold;
+}
+.media--contant h2 {
+    font-size: 1.2rem;
+}
+/* section img group*/
+.section--media--img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section-img {
+    box-shadow: 10px 10px 10px gainsboro;
+    width: 90%;
+    height: 400px;
+    margin-top: 20px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.img--one {
+    width: 60%;
+    height: 240px;
+    padding: 10px;
+}
+.img--one img , .img--two img {
+    width: 100%;
+    height: 100%;
+}
+.img--two {
+    width: 40%;
+    height: 150px;
+}
+/* card section*/
+.card---section-main {
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card---section  {
+    width: 100%;
+    margin-top: 50px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.shedwo-card {
+    box-shadow: 10px 10px 10px gainsboro;
+}
+
+.contor {
+    width: 150px!important;
+     height: 100px!important;
+}
+.event-main {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.event {
+    width: 90%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.event button {
+    background-color: green;
+    color: white;
+    padding: 0px 10px 0px 10px;
+    border-radius: 20px;
+}
+.event > p {
+    text-align: justify;
+}
+
+.paragrap-main {
+    width: 100%;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.paragrap-section {
+    width: 80%;
+    box-shadow: 10px 10px 10px gainsboro;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    height: 200px;
+}
+.order-icon {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+     margin-top: 50px;
+    padding: 70px;
+    box-shadow: 10px 10px 10px rgb(230, 223, 223);
+    height: 500px;
+}
+.order-icon-one {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    flex-direction: column;
+    text-align: center;
+    width: 150px;
+    margin: 10px 20px ;
+    height: 150px;
+    background-color: rgb(226, 235, 243);
+    border-radius: 16px;
+}
+/* last section*/
+.last-section {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.last-main {
+    width: 80%;
+    height: 160px;
+    display: flex;
+    padding-left: 50px;
+  background-color: #a2de96;
+  border-radius: 20px;
+box-shadow: 10px 10px 10px rgb(220, 210, 210);
+  justify-content: center;
+}
+.search-div {
+    width: 90%;
+    border-radius: 30px;
+    height: 30px;
+    display: flex;
+}
+.search-div input {
+    width: 80%;
+    height: auto;
+}
+.search-div button {
+    width: 20%;
+    height: auto;
+    border: none;
+    background-color: green;
+    color: white;
+}
+@media only screen and (min-width: 800px) {
+
+.fast--section {
+    display: flex;
+    flex-direction:  row;
+  padding: 2.5rem;
+    margin-top: 2.9rem;}
+
+
+
+.right-img  {
+        display: flex;
+        justify-content:right;
+         width: 100%;
+        align-items: center;
+    
+}
+.fast--section-left {
+    padding: 2.9rem;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-top: 2.9rem;
+
+
+
+}
+
+
+
+
+.lift-heading {
+    font-size: 3rem;
+    color: black;
+    text-align: center;
+    margin-top: 2.9rem;
+}
+.lift-paragrap {
+    font-size: 1.6rem;
+    text-align: center;
+    color: rgb(92, 82, 82);
+}
+.btn-green {
+    border: none;
+    border-radius: 15px;
+    padding: 0.1rem 0.5rem 0.1rem 0.5rem;
+    font-size: 2rem;
+    background-color: rgb(44, 146, 49);
+}
+
+
+
+p.btn {
+   font-size: 2rem;
+}
+
+.box {
+    border-radius: 20px;
+    margin: 0.6rem;
+    display: flex;
+    flex-direction: column;
+     padding: 0.9rem;
+    align-items:center;
+    justify-content: center;
+    width: 17%;
+    height: 200px;
+    background-color: rgb(198, 218, 235);
+}
+.box h3 {
+    margin-top: 0.9rem;
+    font-size: 0.9rem;
+}
+.box p {
+    font-size: 0.6rem;
+}
+
+
+.media-section-one {
+    width: 90%;
+    height: 500px;
+    padding-top: 20px;
+    margin: 50px auto;
+}
+.media--main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+      gap: 10px;    
+}
+.media-one {
+    width: 22%;
+    height: auto;
+    margin: auto;
+}
+.media-one img {
+    border-radius: 20px;
+}
+.media--contant {
+    display: flex;
+    padding-left: 22px;
+    flex-direction: column;
+    justify-content: center;
+}
+.media--btn {
+    background-color: green;
+    color: white;
+    padding: 6px;
+    border-radius: 14px;
+}
+
+..section--media--img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section-img {
+    box-shadow: 10px 10px 10px gainsboro;
+    width: 90%;
+    height: 600px;
+    margin-top: 20px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+
+}
+
+
+.img--one {
+    width: 60%;
+    height: 500px;
+    padding: 10px;
+}
+.img--one img , .img--two img {
+    width: 100%;
+    height: 100%;
+}
+.img--two {
+    width: 40%;
+    height: 300px;
+}
+
+
+.card---section-main {
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card---section  {
+    width: 100%;
+    margin-top: 50px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.shedwo-card {
+    box-shadow: 10px 10px 10px gainsboro;
+}
+.shedwo-card {
+    width: 100%;
+    height: 600px !important;
+}
+
+.event-main {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.event {
+    width: 90%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.event button {
+    background-color: green;
+    color: white;
+    padding: 0px 10px 0px 10px;
+    border-radius: 20px;
+}
+
+
+.paragrap-main {
+    width: 100%;
+    height: 1100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.paragrap-section {
+    width: 80%;
+    box-shadow: 10px 10px 10px gainsboro;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    height: 200px;
+}
+
+}
+
