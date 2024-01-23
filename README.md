@@ -1,2 +1,2 @@
-# Shaif,s Cuisine Web Page Responsiv
+# Shaif,s Cuisine Web Page Responsive
 https://chaek.netlify.app
